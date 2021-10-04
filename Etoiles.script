@@ -1,0 +1,34 @@
+<script>
+
+let i = 1;
+let string = "" 
+while 
+  (i <= 10 ){
+string = string + "*"
+console.log (string);
+i++
+}
+ 
+ 
+ 
+for (let i = 1; i <= 10; i++ ){
+ var string= "";
+ for (let j = 10; j>=i; j-- )
+string = string + "*";
+console.log (string);
+}
+ 
+ 
+ 
+for (let i = 1; i <= 10; i++ ){
+ let string = "";
+ let space = "";
+ for (let j = 10; j>=i; j-- ){
+string = string + "*";
+}
+for(let x = 1; x<=i; x++) {
+space = space + " ";
+}
+console.log (space + string);
+}
+</script>
